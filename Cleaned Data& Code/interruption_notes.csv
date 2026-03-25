@@ -1,0 +1,387 @@
+interruption_slot,matched_log_time,operations,group,note
+2018-01-12T10:07:30Z,2018-01-12T10:00:00Z,Feeding,Feeder/Feeding,Avicel PD4 - Communnication alarm resulted in system stop.Same communication error from previous day. System reset and restarted.(PO)
+2018-01-12T13:07:30Z,2018-01-12T13:30:00Z,Feeding,Feeder/Feeding,Avicel PD4 - Vacuum hopper ran empty due to void in bulk created by vacuum wand. Poor flow of material did not fill void. Process Stopped. Redistributed material in drum and restart system- issue resolved- (KM)
+2018-01-12T13:08:00Z,2018-01-12T13:30:00Z,Feeding,Feeder/Feeding,Avicel PD4 - Vacuum hopper ran empty due to void in bulk created by vacuum wand. Poor flow of material did not fill void. Process Stopped. Redistributed material in drum and restart system- issue resolved- (KM)
+2018-01-12T13:08:30Z,2018-01-12T13:30:00Z,Feeding,Feeder/Feeding,Avicel PD4 - Vacuum hopper ran empty due to void in bulk created by vacuum wand. Poor flow of material did not fill void. Process Stopped. Redistributed material in drum and restart system- issue resolved- (KM)
+2018-01-12T14:41:00Z,2018-01-12T14:30:00Z,Feeding,Feeder/Feeding,Avicel PD4 - Communnication alarm resulted in process stop.Same communication error from previous day. System reset and restarted.(PO)
+2018-01-12T14:41:00Z,2018-01-12T14:30:00Z,Feeders,Feeder/Feeding,Avicel PD4 Bulk
+2018-01-12T15:18:30Z,2018-01-12T15:30:00Z,Feeding,Feeder/Feeding,Material buildup Mag St PD7 - Noticed some material buildup on outlet of PD7. This may be due to airflow having no where to go from blender 2 and resulting I dust kicking back up towards the feeder. (AT)
+2018-01-12T15:18:30Z,2018-01-12T15:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-12T19:26:00Z,2018-01-12T19:00:00Z,Feeding,Feeder/Feeding,APAP feeder disturbance (PD3)- Feeder disturbance resulted in diversion event a the press. It was determined that the wrong parameters were uploaded to the feeder after restarting because the CDC recipes that were loaded were not in memory. After correcting the parameters the feeder regained control and process began to make good tablets again.- issue resolved (AT)
+2018-01-12T19:26:30Z,2018-01-12T19:00:00Z,Feeding,Feeder/Feeding,APAP feeder disturbance (PD3)- Feeder disturbance resulted in diversion event a the press. It was determined that the wrong parameters were uploaded to the feeder after restarting because the CDC recipes that were loaded were not in memory. After correcting the parameters the feeder regained control and process began to make good tablets again.- issue resolved (AT)
+2018-01-12T19:27:00Z,2018-01-12T19:00:00Z,Feeding,Feeder/Feeding,APAP feeder disturbance (PD3)- Feeder disturbance resulted in diversion event a the press. It was determined that the wrong parameters were uploaded to the feeder after restarting because the CDC recipes that were loaded were not in memory. After correcting the parameters the feeder regained control and process began to make good tablets again.- issue resolved (AT)
+2018-01-13T00:17:30Z,2018-01-13T00:00:00Z,Feeding,Feeder/Feeding,Feeder Manifold Dedusting - System paused to remove excess buildup from feeder outlets- Restarted at 00:24hrs (AG)
+2018-01-13T00:18:00Z,2018-01-13T00:00:00Z,Feeding,Feeder/Feeding,Feeder Manifold Dedusting - System paused to remove excess buildup from feeder outlets- Restarted at 00:24hrs (AG)
+2018-01-13T00:18:30Z,2018-01-13T00:00:00Z,Feeding,Feeder/Feeding,Feeder Manifold Dedusting - System paused to remove excess buildup from feeder outlets- Restarted at 00:24hrs (AG)
+2018-01-13T00:19:00Z,2018-01-13T00:00:00Z,Feeding,Feeder/Feeding,Feeder Manifold Dedusting - System paused to remove excess buildup from feeder outlets- Restarted at 00:24hrs (AG)
+2018-01-13T00:19:30Z,2018-01-13T00:00:00Z,Feeding,Feeder/Feeding,Feeder Manifold Dedusting - System paused to remove excess buildup from feeder outlets- Restarted at 00:24hrs (AG)
+2018-01-13T00:20:00Z,2018-01-13T00:00:00Z,Feeding,Feeder/Feeding,Feeder Manifold Dedusting - System paused to remove excess buildup from feeder outlets- Restarted at 00:24hrs (AG)
+2018-01-13T00:20:30Z,2018-01-13T00:00:00Z,Feeding,Feeder/Feeding,Feeder Manifold Dedusting - System paused to remove excess buildup from feeder outlets- Restarted at 00:24hrs (AG)
+2018-01-13T00:21:00Z,2018-01-13T00:00:00Z,Feeding,Feeder/Feeding,Feeder Manifold Dedusting - System paused to remove excess buildup from feeder outlets- Restarted at 00:24hrs (AG)
+2018-01-13T00:21:30Z,2018-01-13T00:00:00Z,Feeding,Feeder/Feeding,Feeder Manifold Dedusting - System paused to remove excess buildup from feeder outlets- Restarted at 00:24hrs (AG)
+2018-01-13T00:22:00Z,2018-01-13T00:00:00Z,Feeding,Feeder/Feeding,Feeder Manifold Dedusting - System paused to remove excess buildup from feeder outlets- Restarted at 00:24hrs (AG)
+2018-01-13T00:22:30Z,2018-01-13T00:00:00Z,Feeding,Feeder/Feeding,Feeder Manifold Dedusting - System paused to remove excess buildup from feeder outlets- Restarted at 00:24hrs (AG)
+2018-01-13T00:23:00Z,2018-01-13T00:00:00Z,Feeding,Feeder/Feeding,Feeder Manifold Dedusting - System paused to remove excess buildup from feeder outlets- Restarted at 00:24hrs (AG)
+2018-01-13T00:23:30Z,2018-01-13T00:00:00Z,Feeding,Feeder/Feeding,Feeder Manifold Dedusting - System paused to remove excess buildup from feeder outlets- Restarted at 00:24hrs (AG)
+2018-01-13T00:24:00Z,2018-01-13T00:00:00Z,Feeding,Feeder/Feeding,Feeder Manifold Dedusting - System paused to remove excess buildup from feeder outlets- Restarted at 00:24hrs (AG)
+2018-01-13T04:27:30Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:27:30Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:28:00Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:28:00Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:28:30Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:28:30Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:29:00Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:29:00Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:29:30Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:29:30Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:30:00Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:30:00Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:30:30Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:30:30Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:32:00Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:32:00Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:32:30Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:32:30Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:33:00Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:33:00Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:33:30Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:33:30Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:34:00Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:34:00Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:34:30Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:34:30Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:35:00Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:35:00Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:35:30Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:35:30Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:36:00Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:36:00Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:36:30Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:36:30Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:37:00Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:37:00Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:37:30Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:37:30Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:38:00Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:38:00Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:38:30Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:38:30Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:39:00Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:39:00Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:39:30Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:39:30Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:40:00Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:40:00Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:40:30Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:40:30Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:41:00Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:41:00Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:41:30Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:41:30Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:43:00Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:43:00Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T04:43:30Z,2018-01-13T04:30:00Z,Feeding,Feeder/Feeding,Excess powder builup in feeder manifold - APAP feeder (PD3) mesh was changed back to 2 mm to reduce buildup that was occuring from use of 8 mm mesh. This resulted in current alarm with system stop as previously oserved. It was determined that the the new Gear ratio does not have the torque required to overcome the back pressure created by the screen and hence the current was too high. Continued operating near the upper limit of current- (SA)
+2018-01-13T04:43:30Z,2018-01-13T04:30:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T05:22:00Z,2018-01-13T05:00:00Z,Feeding,Feeder/Feeding,APAP (PD3) current alarm - System Stop. Went back to 8mm mesh. Current back to normal level-issue resolved (SA)
+2018-01-13T05:22:00Z,2018-01-13T05:00:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T05:22:30Z,2018-01-13T05:00:00Z,Feeding,Feeder/Feeding,APAP (PD3) current alarm - System Stop. Went back to 8mm mesh. Current back to normal level-issue resolved (SA)
+2018-01-13T05:22:30Z,2018-01-13T05:00:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T05:23:00Z,2018-01-13T05:00:00Z,Feeding,Feeder/Feeding,APAP (PD3) current alarm - System Stop. Went back to 8mm mesh. Current back to normal level-issue resolved (SA)
+2018-01-13T05:23:00Z,2018-01-13T05:00:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T05:23:30Z,2018-01-13T05:00:00Z,Feeding,Feeder/Feeding,APAP (PD3) current alarm - System Stop. Went back to 8mm mesh. Current back to normal level-issue resolved (SA)
+2018-01-13T05:23:30Z,2018-01-13T05:00:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T05:24:00Z,2018-01-13T05:00:00Z,Feeding,Feeder/Feeding,APAP (PD3) current alarm - System Stop. Went back to 8mm mesh. Current back to normal level-issue resolved (SA)
+2018-01-13T05:24:00Z,2018-01-13T05:00:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T05:24:30Z,2018-01-13T05:00:00Z,Feeding,Feeder/Feeding,APAP (PD3) current alarm - System Stop. Went back to 8mm mesh. Current back to normal level-issue resolved (SA)
+2018-01-13T05:24:30Z,2018-01-13T05:00:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T05:25:00Z,2018-01-13T05:00:00Z,Feeding,Feeder/Feeding,APAP (PD3) current alarm - System Stop. Went back to 8mm mesh. Current back to normal level-issue resolved (SA)
+2018-01-13T05:25:00Z,2018-01-13T05:00:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T05:25:30Z,2018-01-13T05:00:00Z,Feeding,Feeder/Feeding,APAP (PD3) current alarm - System Stop. Went back to 8mm mesh. Current back to normal level-issue resolved (SA)
+2018-01-13T05:25:30Z,2018-01-13T05:00:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T05:26:00Z,2018-01-13T05:00:00Z,Feeding,Feeder/Feeding,APAP (PD3) current alarm - System Stop. Went back to 8mm mesh. Current back to normal level-issue resolved (SA)
+2018-01-13T05:26:00Z,2018-01-13T05:00:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T05:26:30Z,2018-01-13T05:00:00Z,Feeding,Feeder/Feeding,APAP (PD3) current alarm - System Stop. Went back to 8mm mesh. Current back to normal level-issue resolved (SA)
+2018-01-13T05:26:30Z,2018-01-13T05:00:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T05:27:00Z,2018-01-13T05:00:00Z,Feeding,Feeder/Feeding,APAP (PD3) current alarm - System Stop. Went back to 8mm mesh. Current back to normal level-issue resolved (SA)
+2018-01-13T05:27:00Z,2018-01-13T05:00:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T05:27:30Z,2018-01-13T05:00:00Z,Feeding,Feeder/Feeding,APAP (PD3) current alarm - System Stop. Went back to 8mm mesh. Current back to normal level-issue resolved (SA)
+2018-01-13T05:27:30Z,2018-01-13T05:00:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T05:28:00Z,2018-01-13T05:00:00Z,Feeding,Feeder/Feeding,APAP (PD3) current alarm - System Stop. Went back to 8mm mesh. Current back to normal level-issue resolved (SA)
+2018-01-13T05:28:00Z,2018-01-13T05:00:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T05:28:30Z,2018-01-13T05:00:00Z,Feeding,Feeder/Feeding,APAP (PD3) current alarm - System Stop. Went back to 8mm mesh. Current back to normal level-issue resolved (SA)
+2018-01-13T05:28:30Z,2018-01-13T05:00:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T05:29:00Z,2018-01-13T05:00:00Z,Feeding,Feeder/Feeding,APAP (PD3) current alarm - System Stop. Went back to 8mm mesh. Current back to normal level-issue resolved (SA)
+2018-01-13T05:29:00Z,2018-01-13T05:00:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T05:29:30Z,2018-01-13T05:00:00Z,Feeding,Feeder/Feeding,APAP (PD3) current alarm - System Stop. Went back to 8mm mesh. Current back to normal level-issue resolved (SA)
+2018-01-13T05:29:30Z,2018-01-13T05:00:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T05:30:00Z,2018-01-13T05:00:00Z,Feeding,Feeder/Feeding,APAP (PD3) current alarm - System Stop. Went back to 8mm mesh. Current back to normal level-issue resolved (SA)
+2018-01-13T05:30:00Z,2018-01-13T05:00:00Z,Feeders,Feeder/Feeding,APAP
+2018-01-13T13:38:00Z,2018-01-13T13:30:00Z,Feeding,Feeder/Feeding,Crosscarm feeder (PD5)- communication error ( same as prior communication error) Feeder reset and system restart (AT)
+2018-01-13T13:38:00Z,2018-01-13T13:30:00Z,Electronic Communication,Electronic Communication,crosscarm PD5
+2018-01-13T15:02:00Z,2018-01-13T15:00:00Z,Feeding,Feeder/Feeding,Avicel feeder (PD1)- communication error ( same as prior communication error) Feeder reset and system restart (AT)
+2018-01-13T15:02:00Z,2018-01-13T15:00:00Z,Electronic Communication,Electronic Communication,Avicel PD1
+2018-01-13T15:02:30Z,2018-01-13T15:00:00Z,Feeding,Feeder/Feeding,Avicel feeder (PD1)- communication error ( same as prior communication error) Feeder reset and system restart (AT)
+2018-01-13T15:02:30Z,2018-01-13T15:00:00Z,Electronic Communication,Electronic Communication,Avicel PD1
+2018-01-13T15:03:00Z,2018-01-13T15:00:00Z,Feeding,Feeder/Feeding,Avicel feeder (PD1)- communication error ( same as prior communication error) Feeder reset and system restart (AT)
+2018-01-13T15:03:00Z,2018-01-13T15:00:00Z,Electronic Communication,Electronic Communication,Avicel PD1
+2018-01-13T15:03:30Z,2018-01-13T15:00:00Z,Feeding,Feeder/Feeding,Avicel feeder (PD1)- communication error ( same as prior communication error) Feeder reset and system restart (AT)
+2018-01-13T15:03:30Z,2018-01-13T15:00:00Z,Electronic Communication,Electronic Communication,Avicel PD1
+2018-01-13T18:21:30Z,2018-01-13T18:30:00Z,Feeding,Feeder/Feeding,Lactose feeder (PD1)- communication error ( same as prior communication error) Feeder reset and system restart (AT)
+2018-01-13T18:21:30Z,2018-01-13T18:30:00Z,Electronic Communication,Electronic Communication,Lactose PD1
+2018-01-13T18:22:00Z,2018-01-13T18:30:00Z,Feeding,Feeder/Feeding,Lactose feeder (PD1)- communication error ( same as prior communication error) Feeder reset and system restart (AT)
+2018-01-13T18:22:00Z,2018-01-13T18:30:00Z,Electronic Communication,Electronic Communication,Lactose PD1
+2018-01-13T18:22:30Z,2018-01-13T18:30:00Z,Feeding,Feeder/Feeding,Lactose feeder (PD1)- communication error ( same as prior communication error) Feeder reset and system restart (AT)
+2018-01-13T18:22:30Z,2018-01-13T18:30:00Z,Electronic Communication,Electronic Communication,Lactose PD1
+2018-01-13T18:23:00Z,2018-01-13T18:30:00Z,Feeding,Feeder/Feeding,Lactose feeder (PD1)- communication error ( same as prior communication error) Feeder reset and system restart (AT)
+2018-01-13T18:23:00Z,2018-01-13T18:30:00Z,Electronic Communication,Electronic Communication,Lactose PD1
+2018-01-13T21:00:30Z,2018-01-13T21:00:00Z,Feeding,Feeder/Feeding,Mag St feeder cleaning  - Noticed feeder was remaining in volumeric modefor extended aount of time after refill.  Paused the process to vacuum the buildup around feeder outlet. Restarted system returned to gravimetric operation- issue resolved (AT)
+2018-01-13T21:00:30Z,2018-01-13T21:00:00Z,Feeder,Feeder/Feeding,Mgst
+2018-01-13T21:01:00Z,2018-01-13T21:00:00Z,Feeding,Feeder/Feeding,Mag St feeder cleaning  - Noticed feeder was remaining in volumeric modefor extended aount of time after refill.  Paused the process to vacuum the buildup around feeder outlet. Restarted system returned to gravimetric operation- issue resolved (AT)
+2018-01-13T21:01:00Z,2018-01-13T21:00:00Z,Feeder,Feeder/Feeding,Mgst
+2018-01-13T21:01:30Z,2018-01-13T21:00:00Z,Feeding,Feeder/Feeding,Mag St feeder cleaning  - Noticed feeder was remaining in volumeric modefor extended aount of time after refill.  Paused the process to vacuum the buildup around feeder outlet. Restarted system returned to gravimetric operation- issue resolved (AT)
+2018-01-13T21:01:30Z,2018-01-13T21:00:00Z,Feeder,Feeder/Feeding,Mgst
+2018-01-13T21:02:00Z,2018-01-13T21:00:00Z,Feeding,Feeder/Feeding,Mag St feeder cleaning  - Noticed feeder was remaining in volumeric modefor extended aount of time after refill.  Paused the process to vacuum the buildup around feeder outlet. Restarted system returned to gravimetric operation- issue resolved (AT)
+2018-01-13T21:02:00Z,2018-01-13T21:00:00Z,Feeder,Feeder/Feeding,Mgst
+2018-01-13T21:02:30Z,2018-01-13T21:00:00Z,Feeding,Feeder/Feeding,Mag St feeder cleaning  - Noticed feeder was remaining in volumeric modefor extended aount of time after refill.  Paused the process to vacuum the buildup around feeder outlet. Restarted system returned to gravimetric operation- issue resolved (AT)
+2018-01-13T21:02:30Z,2018-01-13T21:00:00Z,Feeder,Feeder/Feeding,Mgst
+2018-01-13T21:03:00Z,2018-01-13T21:00:00Z,Feeding,Feeder/Feeding,Mag St feeder cleaning  - Noticed feeder was remaining in volumeric modefor extended aount of time after refill.  Paused the process to vacuum the buildup around feeder outlet. Restarted system returned to gravimetric operation- issue resolved (AT)
+2018-01-13T21:03:00Z,2018-01-13T21:00:00Z,Feeder,Feeder/Feeding,Mgst
+2018-01-13T21:03:30Z,2018-01-13T21:00:00Z,Feeding,Feeder/Feeding,Mag St feeder cleaning  - Noticed feeder was remaining in volumeric modefor extended aount of time after refill.  Paused the process to vacuum the buildup around feeder outlet. Restarted system returned to gravimetric operation- issue resolved (AT)
+2018-01-13T21:03:30Z,2018-01-13T21:00:00Z,Feeder,Feeder/Feeding,Mgst
+2018-01-13T21:04:00Z,2018-01-13T21:00:00Z,Feeding,Feeder/Feeding,Mag St feeder cleaning  - Noticed feeder was remaining in volumeric modefor extended aount of time after refill.  Paused the process to vacuum the buildup around feeder outlet. Restarted system returned to gravimetric operation- issue resolved (AT)
+2018-01-13T21:04:00Z,2018-01-13T21:00:00Z,Feeder,Feeder/Feeding,Mgst
+2018-01-13T21:04:30Z,2018-01-13T21:00:00Z,Feeding,Feeder/Feeding,Mag St feeder cleaning  - Noticed feeder was remaining in volumeric modefor extended aount of time after refill.  Paused the process to vacuum the buildup around feeder outlet. Restarted system returned to gravimetric operation- issue resolved (AT)
+2018-01-13T21:04:30Z,2018-01-13T21:00:00Z,Feeder,Feeder/Feeding,Mgst
+2018-01-13T21:05:00Z,2018-01-13T21:00:00Z,Feeding,Feeder/Feeding,Mag St feeder cleaning  - Noticed feeder was remaining in volumeric modefor extended aount of time after refill.  Paused the process to vacuum the buildup around feeder outlet. Restarted system returned to gravimetric operation- issue resolved (AT)
+2018-01-13T21:05:00Z,2018-01-13T21:00:00Z,Feeder,Feeder/Feeding,Mgst
+2018-01-13T21:05:30Z,2018-01-13T21:00:00Z,Feeding,Feeder/Feeding,Mag St feeder cleaning  - Noticed feeder was remaining in volumeric modefor extended aount of time after refill.  Paused the process to vacuum the buildup around feeder outlet. Restarted system returned to gravimetric operation- issue resolved (AT)
+2018-01-13T21:05:30Z,2018-01-13T21:00:00Z,Feeder,Feeder/Feeding,Mgst
+2018-01-13T21:06:00Z,2018-01-13T21:00:00Z,Feeding,Feeder/Feeding,Mag St feeder cleaning  - Noticed feeder was remaining in volumeric modefor extended aount of time after refill.  Paused the process to vacuum the buildup around feeder outlet. Restarted system returned to gravimetric operation- issue resolved (AT)
+2018-01-13T21:06:00Z,2018-01-13T21:00:00Z,Feeder,Feeder/Feeding,Mgst
+2018-01-13T21:06:30Z,2018-01-13T21:00:00Z,Feeding,Feeder/Feeding,Mag St feeder cleaning  - Noticed feeder was remaining in volumeric modefor extended aount of time after refill.  Paused the process to vacuum the buildup around feeder outlet. Restarted system returned to gravimetric operation- issue resolved (AT)
+2018-01-13T21:06:30Z,2018-01-13T21:00:00Z,Feeder,Feeder/Feeding,Mgst
+2018-01-13T21:07:00Z,2018-01-13T21:00:00Z,Feeding,Feeder/Feeding,Mag St feeder cleaning  - Noticed feeder was remaining in volumeric modefor extended aount of time after refill.  Paused the process to vacuum the buildup around feeder outlet. Restarted system returned to gravimetric operation- issue resolved (AT)
+2018-01-13T21:07:00Z,2018-01-13T21:00:00Z,Feeder,Feeder/Feeding,Mgst
+2018-01-14T02:09:00Z,2018-01-14T02:00:00Z,Feeding,Feeder/Feeding,"Lactose Refill failing- 3 x Over the period of 20 min the lacotse refill was empty and material not getting into the feeder. This resulted in a few short stops, which the system automatically started again. Possible blinding of the top up level sensor, knocked the side of the hopper and then restarted the process(AT)"
+2018-01-14T02:09:00Z,2018-01-14T02:00:00Z,Compression,Compression,Punch Lubrication Status - Process paused to check status of punch lubrication. Blender 1 & 2 inlet ports vacuumed during pause (AG)
+2018-01-14T02:09:30Z,2018-01-14T02:00:00Z,Feeding,Feeder/Feeding,"Lactose Refill failing- 3 x Over the period of 20 min the lacotse refill was empty and material not getting into the feeder. This resulted in a few short stops, which the system automatically started again. Possible blinding of the top up level sensor, knocked the side of the hopper and then restarted the process(AT)"
+2018-01-14T02:09:30Z,2018-01-14T02:00:00Z,Compression,Compression,Punch Lubrication Status - Process paused to check status of punch lubrication. Blender 1 & 2 inlet ports vacuumed during pause (AG)
+2018-01-14T02:10:00Z,2018-01-14T02:00:00Z,Feeding,Feeder/Feeding,"Lactose Refill failing- 3 x Over the period of 20 min the lacotse refill was empty and material not getting into the feeder. This resulted in a few short stops, which the system automatically started again. Possible blinding of the top up level sensor, knocked the side of the hopper and then restarted the process(AT)"
+2018-01-14T02:10:00Z,2018-01-14T02:00:00Z,Compression,Compression,Punch Lubrication Status - Process paused to check status of punch lubrication. Blender 1 & 2 inlet ports vacuumed during pause (AG)
+2018-01-14T02:10:30Z,2018-01-14T02:00:00Z,Feeding,Feeder/Feeding,"Lactose Refill failing- 3 x Over the period of 20 min the lacotse refill was empty and material not getting into the feeder. This resulted in a few short stops, which the system automatically started again. Possible blinding of the top up level sensor, knocked the side of the hopper and then restarted the process(AT)"
+2018-01-14T02:10:30Z,2018-01-14T02:00:00Z,Compression,Compression,Punch Lubrication Status - Process paused to check status of punch lubrication. Blender 1 & 2 inlet ports vacuumed during pause (AG)
+2018-01-14T02:11:00Z,2018-01-14T02:00:00Z,Feeding,Feeder/Feeding,"Lactose Refill failing- 3 x Over the period of 20 min the lacotse refill was empty and material not getting into the feeder. This resulted in a few short stops, which the system automatically started again. Possible blinding of the top up level sensor, knocked the side of the hopper and then restarted the process(AT)"
+2018-01-14T02:11:00Z,2018-01-14T02:00:00Z,Compression,Compression,Punch Lubrication Status - Process paused to check status of punch lubrication. Blender 1 & 2 inlet ports vacuumed during pause (AG)
+2018-01-14T02:11:30Z,2018-01-14T02:00:00Z,Feeding,Feeder/Feeding,"Lactose Refill failing- 3 x Over the period of 20 min the lacotse refill was empty and material not getting into the feeder. This resulted in a few short stops, which the system automatically started again. Possible blinding of the top up level sensor, knocked the side of the hopper and then restarted the process(AT)"
+2018-01-14T02:11:30Z,2018-01-14T02:00:00Z,Compression,Compression,Punch Lubrication Status - Process paused to check status of punch lubrication. Blender 1 & 2 inlet ports vacuumed during pause (AG)
+2018-01-14T02:12:00Z,2018-01-14T02:00:00Z,Feeding,Feeder/Feeding,"Lactose Refill failing- 3 x Over the period of 20 min the lacotse refill was empty and material not getting into the feeder. This resulted in a few short stops, which the system automatically started again. Possible blinding of the top up level sensor, knocked the side of the hopper and then restarted the process(AT)"
+2018-01-14T02:12:00Z,2018-01-14T02:00:00Z,Compression,Compression,Punch Lubrication Status - Process paused to check status of punch lubrication. Blender 1 & 2 inlet ports vacuumed during pause (AG)
+2018-01-14T02:12:30Z,2018-01-14T02:00:00Z,Feeding,Feeder/Feeding,"Lactose Refill failing- 3 x Over the period of 20 min the lacotse refill was empty and material not getting into the feeder. This resulted in a few short stops, which the system automatically started again. Possible blinding of the top up level sensor, knocked the side of the hopper and then restarted the process(AT)"
+2018-01-14T02:12:30Z,2018-01-14T02:00:00Z,Compression,Compression,Punch Lubrication Status - Process paused to check status of punch lubrication. Blender 1 & 2 inlet ports vacuumed during pause (AG)
+2018-01-14T02:13:00Z,2018-01-14T02:00:00Z,Feeding,Feeder/Feeding,"Lactose Refill failing- 3 x Over the period of 20 min the lacotse refill was empty and material not getting into the feeder. This resulted in a few short stops, which the system automatically started again. Possible blinding of the top up level sensor, knocked the side of the hopper and then restarted the process(AT)"
+2018-01-14T02:13:00Z,2018-01-14T02:00:00Z,Compression,Compression,Punch Lubrication Status - Process paused to check status of punch lubrication. Blender 1 & 2 inlet ports vacuumed during pause (AG)
+2018-01-14T02:13:30Z,2018-01-14T02:00:00Z,Feeding,Feeder/Feeding,"Lactose Refill failing- 3 x Over the period of 20 min the lacotse refill was empty and material not getting into the feeder. This resulted in a few short stops, which the system automatically started again. Possible blinding of the top up level sensor, knocked the side of the hopper and then restarted the process(AT)"
+2018-01-14T02:13:30Z,2018-01-14T02:00:00Z,Compression,Compression,Punch Lubrication Status - Process paused to check status of punch lubrication. Blender 1 & 2 inlet ports vacuumed during pause (AG)
+2018-01-14T02:14:00Z,2018-01-14T02:00:00Z,Feeding,Feeder/Feeding,"Lactose Refill failing- 3 x Over the period of 20 min the lacotse refill was empty and material not getting into the feeder. This resulted in a few short stops, which the system automatically started again. Possible blinding of the top up level sensor, knocked the side of the hopper and then restarted the process(AT)"
+2018-01-14T02:14:00Z,2018-01-14T02:00:00Z,Compression,Compression,Punch Lubrication Status - Process paused to check status of punch lubrication. Blender 1 & 2 inlet ports vacuumed during pause (AG)
+2018-01-14T02:14:30Z,2018-01-14T02:00:00Z,Feeding,Feeder/Feeding,"Lactose Refill failing- 3 x Over the period of 20 min the lacotse refill was empty and material not getting into the feeder. This resulted in a few short stops, which the system automatically started again. Possible blinding of the top up level sensor, knocked the side of the hopper and then restarted the process(AT)"
+2018-01-14T02:14:30Z,2018-01-14T02:00:00Z,Compression,Compression,Punch Lubrication Status - Process paused to check status of punch lubrication. Blender 1 & 2 inlet ports vacuumed during pause (AG)
+2018-01-14T03:28:30Z,2018-01-14T03:30:00Z,Feeding,Feeder/Feeding,Avicel PD4 Communication error - Process stopped. Acknowledged and restarted (AG)
+2018-01-14T03:28:30Z,2018-01-14T03:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-14T03:29:00Z,2018-01-14T03:30:00Z,Feeding,Feeder/Feeding,Avicel PD4 Communication error - Process stopped. Acknowledged and restarted (AG)
+2018-01-14T03:29:00Z,2018-01-14T03:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-14T05:29:00Z,2018-01-14T05:30:00Z,Feeding,Feeder/Feeding,Avicel PD4 Communication error - Process Paused. Acknowledged and restarted (AG)
+2018-01-14T05:29:00Z,2018-01-14T05:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-14T06:58:00Z,2018-01-14T06:30:00Z,Feeding,Feeder/Feeding,Avicel PD4 Communication error - Process Paused. Acknowledged and restarted (AG)
+2018-01-14T06:58:00Z,2018-01-14T06:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-14T07:43:00Z,2018-01-14T07:30:00Z,Feeding,Feeder/Feeding,HMI running too slow - System paused and restarted
+2018-01-14T07:43:00Z,2018-01-14T07:30:00Z,Compression,Compression,HMI running too slow - System paused and restarted
+2018-01-14T10:24:00Z,2018-01-14T10:00:00Z,Feeding,Feeder/Feeding,"Pit Stop - Vacuum feeder barrels, API bellows btwn top and feeder. (KM)"
+2018-01-14T10:24:00Z,2018-01-14T10:00:00Z,Compression,Compression,Pit Stop - Vacuum ECM
+2018-01-14T10:27:00Z,2018-01-14T10:00:00Z,Feeding,Feeder/Feeding,"Pit Stop - Vacuum feeder barrels, API bellows btwn top and feeder. (KM)"
+2018-01-14T10:27:00Z,2018-01-14T10:00:00Z,Compression,Compression,Pit Stop - Vacuum ECM
+2018-01-14T10:28:00Z,2018-01-14T10:00:00Z,Feeding,Feeder/Feeding,"Pit Stop - Vacuum feeder barrels, API bellows btwn top and feeder. (KM)"
+2018-01-14T10:28:00Z,2018-01-14T10:00:00Z,Compression,Compression,Pit Stop - Vacuum ECM
+2018-01-14T10:28:30Z,2018-01-14T10:00:00Z,Feeding,Feeder/Feeding,"Pit Stop - Vacuum feeder barrels, API bellows btwn top and feeder. (KM)"
+2018-01-14T10:28:30Z,2018-01-14T10:00:00Z,Compression,Compression,Pit Stop - Vacuum ECM
+2018-01-14T10:29:00Z,2018-01-14T10:00:00Z,Feeding,Feeder/Feeding,"Pit Stop - Vacuum feeder barrels, API bellows btwn top and feeder. (KM)"
+2018-01-14T10:29:00Z,2018-01-14T10:00:00Z,Compression,Compression,Pit Stop - Vacuum ECM
+2018-01-14T10:29:30Z,2018-01-14T10:00:00Z,Feeding,Feeder/Feeding,"Pit Stop - Vacuum feeder barrels, API bellows btwn top and feeder. (KM)"
+2018-01-14T10:29:30Z,2018-01-14T10:00:00Z,Compression,Compression,Pit Stop - Vacuum ECM
+2018-01-14T10:30:00Z,2018-01-14T10:00:00Z,Feeding,Feeder/Feeding,"Pit Stop - Vacuum feeder barrels, API bellows btwn top and feeder. (KM)"
+2018-01-14T10:30:00Z,2018-01-14T10:00:00Z,Compression,Compression,Pit Stop - Vacuum ECM
+2018-01-14T17:37:00Z,2018-01-14T17:30:00Z,Feeding,Feeder/Feeding,Feeder manifold dedusting - Process Paused to clean the manifold into B1. Some bridging observed btwn PD3 & PD4 (AT)
+2018-01-14T17:37:30Z,2018-01-14T17:30:00Z,Feeding,Feeder/Feeding,Feeder manifold dedusting - Process Paused to clean the manifold into B1. Some bridging observed btwn PD3 & PD4 (AT)
+2018-01-14T17:38:00Z,2018-01-14T17:30:00Z,Feeding,Feeder/Feeding,Feeder manifold dedusting - Process Paused to clean the manifold into B1. Some bridging observed btwn PD3 & PD4 (AT)
+2018-01-14T17:38:30Z,2018-01-14T17:30:00Z,Feeding,Feeder/Feeding,Feeder manifold dedusting - Process Paused to clean the manifold into B1. Some bridging observed btwn PD3 & PD4 (AT)
+2018-01-14T17:39:00Z,2018-01-14T17:30:00Z,Feeding,Feeder/Feeding,Feeder manifold dedusting - Process Paused to clean the manifold into B1. Some bridging observed btwn PD3 & PD4 (AT)
+2018-01-14T17:39:30Z,2018-01-14T17:30:00Z,Feeding,Feeder/Feeding,Feeder manifold dedusting - Process Paused to clean the manifold into B1. Some bridging observed btwn PD3 & PD4 (AT)
+2018-01-14T17:40:00Z,2018-01-14T17:30:00Z,Feeding,Feeder/Feeding,Feeder manifold dedusting - Process Paused to clean the manifold into B1. Some bridging observed btwn PD3 & PD4 (AT)
+2018-01-14T17:40:30Z,2018-01-14T17:30:00Z,Feeding,Feeder/Feeding,Feeder manifold dedusting - Process Paused to clean the manifold into B1. Some bridging observed btwn PD3 & PD4 (AT)
+2018-01-14T17:41:00Z,2018-01-14T17:30:00Z,Feeding,Feeder/Feeding,Feeder manifold dedusting - Process Paused to clean the manifold into B1. Some bridging observed btwn PD3 & PD4 (AT)
+2018-01-14T17:41:30Z,2018-01-14T17:30:00Z,Feeding,Feeder/Feeding,Feeder manifold dedusting - Process Paused to clean the manifold into B1. Some bridging observed btwn PD3 & PD4 (AT)
+2018-01-14T17:42:00Z,2018-01-14T17:30:00Z,Feeding,Feeder/Feeding,Feeder manifold dedusting - Process Paused to clean the manifold into B1. Some bridging observed btwn PD3 & PD4 (AT)
+2018-01-14T17:42:30Z,2018-01-14T17:30:00Z,Feeding,Feeder/Feeding,Feeder manifold dedusting - Process Paused to clean the manifold into B1. Some bridging observed btwn PD3 & PD4 (AT)
+2018-01-14T17:43:00Z,2018-01-14T17:30:00Z,Feeding,Feeder/Feeding,Feeder manifold dedusting - Process Paused to clean the manifold into B1. Some bridging observed btwn PD3 & PD4 (AT)
+2018-01-14T17:43:30Z,2018-01-14T17:30:00Z,Feeding,Feeder/Feeding,Feeder manifold dedusting - Process Paused to clean the manifold into B1. Some bridging observed btwn PD3 & PD4 (AT)
+2018-01-14T18:22:30Z,2018-01-14T18:00:00Z,Feeding,Feeder/Feeding,"Avicel PD4 Communication error - Process Stopped. Acknowledged and restarted (AT)
+MgSt incompete refill- top up was full, but material was not filling the refill bucket. Knocking the side of the hopper promoted the materialto flow into the refill. (AT)"
+2018-01-14T18:22:30Z,2018-01-14T18:00:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-14T23:56:30Z,2018-01-14T23:30:00Z,Feeding,Feeder/Feeding,"Pit Stop - Vacuum B1 feeder manifold,  noticed PD1 had a disturbance due to material build up at outlet into B1 (AG)"
+2018-01-14T23:57:00Z,2018-01-14T23:30:00Z,Feeding,Feeder/Feeding,"Pit Stop - Vacuum B1 feeder manifold,  noticed PD1 had a disturbance due to material build up at outlet into B1 (AG)"
+2018-01-14T23:57:30Z,2018-01-14T23:30:00Z,Feeding,Feeder/Feeding,"Pit Stop - Vacuum B1 feeder manifold,  noticed PD1 had a disturbance due to material build up at outlet into B1 (AG)"
+2018-01-14T23:58:00Z,2018-01-14T23:30:00Z,Feeding,Feeder/Feeding,"Pit Stop - Vacuum B1 feeder manifold,  noticed PD1 had a disturbance due to material build up at outlet into B1 (AG)"
+2018-01-14T23:58:30Z,2018-01-14T23:30:00Z,Feeding,Feeder/Feeding,"Pit Stop - Vacuum B1 feeder manifold,  noticed PD1 had a disturbance due to material build up at outlet into B1 (AG)"
+2018-01-14T23:59:00Z,2018-01-14T23:30:00Z,Feeding,Feeder/Feeding,"Pit Stop - Vacuum B1 feeder manifold,  noticed PD1 had a disturbance due to material build up at outlet into B1 (AG)"
+2018-01-14T23:59:30Z,2018-01-14T23:30:00Z,Feeding,Feeder/Feeding,"Pit Stop - Vacuum B1 feeder manifold,  noticed PD1 had a disturbance due to material build up at outlet into B1 (AG)"
+2018-01-15T00:38:00Z,2018-01-15T00:30:00Z,Feeding,Feeder/Feeding,Crosscarm PD5 Communication error - Process Stopped. Acknowledged and restarted (AT)
+2018-01-15T00:38:00Z,2018-01-15T00:30:00Z,Electronic Communication,Electronic Communication,Crosscarm PD5
+2018-01-15T01:33:00Z,2018-01-15T01:30:00Z,Feeding,Feeder/Feeding,"Avicel PD4 Communication error - Process Stopped. Upon restart did not acknowledge the alarm and the system alarmed and stopped due to ""mass flow stabilization failure""Acknowledged and restarted (AG)"
+2018-01-15T01:33:00Z,2018-01-15T01:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-15T01:33:30Z,2018-01-15T01:30:00Z,Feeding,Feeder/Feeding,"Avicel PD4 Communication error - Process Stopped. Upon restart did not acknowledge the alarm and the system alarmed and stopped due to ""mass flow stabilization failure""Acknowledged and restarted (AG)"
+2018-01-15T01:33:30Z,2018-01-15T01:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-15T01:34:00Z,2018-01-15T01:30:00Z,Feeding,Feeder/Feeding,"Avicel PD4 Communication error - Process Stopped. Upon restart did not acknowledge the alarm and the system alarmed and stopped due to ""mass flow stabilization failure""Acknowledged and restarted (AG)"
+2018-01-15T01:34:00Z,2018-01-15T01:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-15T01:35:30Z,2018-01-15T01:30:00Z,Feeding,Feeder/Feeding,"Avicel PD4 Communication error - Process Stopped. Upon restart did not acknowledge the alarm and the system alarmed and stopped due to ""mass flow stabilization failure""Acknowledged and restarted (AG)"
+2018-01-15T01:35:30Z,2018-01-15T01:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-15T01:36:00Z,2018-01-15T01:30:00Z,Feeding,Feeder/Feeding,"Avicel PD4 Communication error - Process Stopped. Upon restart did not acknowledge the alarm and the system alarmed and stopped due to ""mass flow stabilization failure""Acknowledged and restarted (AG)"
+2018-01-15T01:36:00Z,2018-01-15T01:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-15T01:36:30Z,2018-01-15T01:30:00Z,Feeding,Feeder/Feeding,"Avicel PD4 Communication error - Process Stopped. Upon restart did not acknowledge the alarm and the system alarmed and stopped due to ""mass flow stabilization failure""Acknowledged and restarted (AG)"
+2018-01-15T01:36:30Z,2018-01-15T01:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-15T01:37:00Z,2018-01-15T01:30:00Z,Feeding,Feeder/Feeding,"Avicel PD4 Communication error - Process Stopped. Upon restart did not acknowledge the alarm and the system alarmed and stopped due to ""mass flow stabilization failure""Acknowledged and restarted (AG)"
+2018-01-15T01:37:00Z,2018-01-15T01:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-15T01:37:30Z,2018-01-15T01:30:00Z,Feeding,Feeder/Feeding,"Avicel PD4 Communication error - Process Stopped. Upon restart did not acknowledge the alarm and the system alarmed and stopped due to ""mass flow stabilization failure""Acknowledged and restarted (AG)"
+2018-01-15T01:37:30Z,2018-01-15T01:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-15T01:38:00Z,2018-01-15T01:30:00Z,Feeding,Feeder/Feeding,"Avicel PD4 Communication error - Process Stopped. Upon restart did not acknowledge the alarm and the system alarmed and stopped due to ""mass flow stabilization failure""Acknowledged and restarted (AG)"
+2018-01-15T01:38:00Z,2018-01-15T01:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-15T01:38:30Z,2018-01-15T01:30:00Z,Feeding,Feeder/Feeding,"Avicel PD4 Communication error - Process Stopped. Upon restart did not acknowledge the alarm and the system alarmed and stopped due to ""mass flow stabilization failure""Acknowledged and restarted (AG)"
+2018-01-15T01:38:30Z,2018-01-15T01:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-15T01:39:00Z,2018-01-15T01:30:00Z,Feeding,Feeder/Feeding,"Avicel PD4 Communication error - Process Stopped. Upon restart did not acknowledge the alarm and the system alarmed and stopped due to ""mass flow stabilization failure""Acknowledged and restarted (AG)"
+2018-01-15T01:39:00Z,2018-01-15T01:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-15T01:39:30Z,2018-01-15T01:30:00Z,Feeding,Feeder/Feeding,"Avicel PD4 Communication error - Process Stopped. Upon restart did not acknowledge the alarm and the system alarmed and stopped due to ""mass flow stabilization failure""Acknowledged and restarted (AG)"
+2018-01-15T01:39:30Z,2018-01-15T01:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-15T01:40:00Z,2018-01-15T01:30:00Z,Feeding,Feeder/Feeding,"Avicel PD4 Communication error - Process Stopped. Upon restart did not acknowledge the alarm and the system alarmed and stopped due to ""mass flow stabilization failure""Acknowledged and restarted (AG)"
+2018-01-15T01:40:00Z,2018-01-15T01:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4
+2018-01-15T02:28:30Z,2018-01-15T02:00:00Z,Feeding,Feeder/Feeding,Avicel PD2 Communication error - Process Stopped. Acknowledged and restarted (AG)
+2018-01-15T02:28:30Z,2018-01-15T02:00:00Z,Electronic Communication,Electronic Communication,Lactose PD2
+2018-01-15T02:29:00Z,2018-01-15T02:00:00Z,Feeding,Feeder/Feeding,Avicel PD2 Communication error - Process Stopped. Acknowledged and restarted (AG)
+2018-01-15T02:29:00Z,2018-01-15T02:00:00Z,Electronic Communication,Electronic Communication,Lactose PD2
+2018-01-15T02:29:30Z,2018-01-15T02:00:00Z,Feeding,Feeder/Feeding,Avicel PD2 Communication error - Process Stopped. Acknowledged and restarted (AG)
+2018-01-15T02:29:30Z,2018-01-15T02:00:00Z,Electronic Communication,Electronic Communication,Lactose PD2
+2018-01-15T03:44:30Z,2018-01-15T03:30:00Z,Feeding,Feeder/Feeding,Pit Stop - Vacuum B1 & B2 feeder Manifolds. (AG)
+2018-01-15T09:38:30Z,2018-01-15T10:00:00Z,Feeding,Feeder/Feeding,Pit Stop - Vacuum feeders (KM)
+2018-01-15T09:38:30Z,2018-01-15T10:00:00Z,Compression,Compression,Pit Stop - Vacuum ECM
+2018-01-15T09:39:00Z,2018-01-15T10:00:00Z,Feeding,Feeder/Feeding,Pit Stop - Vacuum feeders (KM)
+2018-01-15T09:39:00Z,2018-01-15T10:00:00Z,Compression,Compression,Pit Stop - Vacuum ECM
+2018-01-15T09:39:30Z,2018-01-15T10:00:00Z,Feeding,Feeder/Feeding,Pit Stop - Vacuum feeders (KM)
+2018-01-15T09:39:30Z,2018-01-15T10:00:00Z,Compression,Compression,Pit Stop - Vacuum ECM
+2018-01-15T09:40:00Z,2018-01-15T10:00:00Z,Feeding,Feeder/Feeding,Pit Stop - Vacuum feeders (KM)
+2018-01-15T09:40:00Z,2018-01-15T10:00:00Z,Compression,Compression,Pit Stop - Vacuum ECM
+2018-01-15T09:40:30Z,2018-01-15T10:00:00Z,Feeding,Feeder/Feeding,Pit Stop - Vacuum feeders (KM)
+2018-01-15T09:40:30Z,2018-01-15T10:00:00Z,Compression,Compression,Pit Stop - Vacuum ECM
+2018-01-15T10:17:30Z,2018-01-15T10:30:00Z,Feeding,Feeder/Feeding,New Lot of Avicel in PD4 (Lot 71732C)- Observed change step change of feed factor (PO)
+2018-01-15T10:17:30Z,2018-01-15T10:30:00Z,Feeder,Feeder/Feeding,Avicel PD4
+2018-01-15T10:18:00Z,2018-01-15T10:30:00Z,Feeding,Feeder/Feeding,New Lot of Avicel in PD4 (Lot 71732C)- Observed change step change of feed factor (PO)
+2018-01-15T10:18:00Z,2018-01-15T10:30:00Z,Feeder,Feeder/Feeding,Avicel PD4
+2018-01-15T10:18:30Z,2018-01-15T10:30:00Z,Feeding,Feeder/Feeding,New Lot of Avicel in PD4 (Lot 71732C)- Observed change step change of feed factor (PO)
+2018-01-15T10:18:30Z,2018-01-15T10:30:00Z,Feeder,Feeder/Feeding,Avicel PD4
+2018-01-15T10:19:00Z,2018-01-15T10:30:00Z,Feeding,Feeder/Feeding,New Lot of Avicel in PD4 (Lot 71732C)- Observed change step change of feed factor (PO)
+2018-01-15T10:19:00Z,2018-01-15T10:30:00Z,Feeder,Feeder/Feeding,Avicel PD4
+2018-01-15T10:19:30Z,2018-01-15T10:30:00Z,Feeding,Feeder/Feeding,New Lot of Avicel in PD4 (Lot 71732C)- Observed change step change of feed factor (PO)
+2018-01-15T10:19:30Z,2018-01-15T10:30:00Z,Feeder,Feeder/Feeding,Avicel PD4
+2018-01-15T10:20:00Z,2018-01-15T10:30:00Z,Feeding,Feeder/Feeding,New Lot of Avicel in PD4 (Lot 71732C)- Observed change step change of feed factor (PO)
+2018-01-15T10:20:00Z,2018-01-15T10:30:00Z,Feeder,Feeder/Feeding,Avicel PD4
+2018-01-15T10:20:30Z,2018-01-15T10:30:00Z,Feeding,Feeder/Feeding,New Lot of Avicel in PD4 (Lot 71732C)- Observed change step change of feed factor (PO)
+2018-01-15T10:20:30Z,2018-01-15T10:30:00Z,Feeder,Feeder/Feeding,Avicel PD4
+2018-01-15T10:21:00Z,2018-01-15T10:30:00Z,Feeding,Feeder/Feeding,New Lot of Avicel in PD4 (Lot 71732C)- Observed change step change of feed factor (PO)
+2018-01-15T10:21:00Z,2018-01-15T10:30:00Z,Feeder,Feeder/Feeding,Avicel PD4
+2018-01-15T10:21:30Z,2018-01-15T10:30:00Z,Feeding,Feeder/Feeding,New Lot of Avicel in PD4 (Lot 71732C)- Observed change step change of feed factor (PO)
+2018-01-15T10:21:30Z,2018-01-15T10:30:00Z,Feeder,Feeder/Feeding,Avicel PD4
+2018-01-15T10:22:00Z,2018-01-15T10:30:00Z,Feeding,Feeder/Feeding,New Lot of Avicel in PD4 (Lot 71732C)- Observed change step change of feed factor (PO)
+2018-01-15T10:22:00Z,2018-01-15T10:30:00Z,Feeder,Feeder/Feeding,Avicel PD4
+2018-01-15T10:22:30Z,2018-01-15T10:30:00Z,Feeding,Feeder/Feeding,New Lot of Avicel in PD4 (Lot 71732C)- Observed change step change of feed factor (PO)
+2018-01-15T10:22:30Z,2018-01-15T10:30:00Z,Feeder,Feeder/Feeding,Avicel PD4
+2018-01-15T10:23:00Z,2018-01-15T10:30:00Z,Feeding,Feeder/Feeding,New Lot of Avicel in PD4 (Lot 71732C)- Observed change step change of feed factor (PO)
+2018-01-15T10:23:00Z,2018-01-15T10:30:00Z,Feeder,Feeder/Feeding,Avicel PD4
+2018-01-15T10:23:30Z,2018-01-15T10:30:00Z,Feeding,Feeder/Feeding,New Lot of Avicel in PD4 (Lot 71732C)- Observed change step change of feed factor (PO)
+2018-01-15T10:23:30Z,2018-01-15T10:30:00Z,Feeder,Feeder/Feeding,Avicel PD4
+2018-01-15T11:11:30Z,2018-01-15T11:30:00Z,Feeding,Feeder/Feeding,"Crosscarm PD5 Communication error - Process Stopped. Acknowledged and restarted (PO)
+Avicel PD4 Communication error - Process Stopped. Acknowledged and restarted-(KM) 
+NOTE:Copper connections changed to gold on the MSD system, so do not expect the same issues) (PO)"
+2018-01-15T11:11:30Z,2018-01-15T11:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4 & Crosscarm PD5
+2018-01-15T11:12:00Z,2018-01-15T11:30:00Z,Feeding,Feeder/Feeding,"Crosscarm PD5 Communication error - Process Stopped. Acknowledged and restarted (PO)
+Avicel PD4 Communication error - Process Stopped. Acknowledged and restarted-(KM) 
+NOTE:Copper connections changed to gold on the MSD system, so do not expect the same issues) (PO)"
+2018-01-15T11:12:00Z,2018-01-15T11:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4 & Crosscarm PD5
+2018-01-15T11:27:00Z,2018-01-15T11:30:00Z,Feeding,Feeder/Feeding,"Crosscarm PD5 Communication error - Process Stopped. Acknowledged and restarted (PO)
+Avicel PD4 Communication error - Process Stopped. Acknowledged and restarted-(KM) 
+NOTE:Copper connections changed to gold on the MSD system, so do not expect the same issues) (PO)"
+2018-01-15T11:27:00Z,2018-01-15T11:30:00Z,Electronic Communication,Electronic Communication,Avicel PD4 & Crosscarm PD5
+2018-01-15T17:36:00Z,2018-01-15T17:30:00Z,Feeding,Feeder/Feeding,"PD3 Drift of screw speed and feed factor - Paused the process to clean the feeder manifold of B1. After restart, an accidental disturbance during cleaning resulted in  PD4 and PD5 thinking it was empty and refilled and overfilled. Process paused. Excess had tp be vacuumed. (AT)"
+2018-01-15T17:36:00Z,2018-01-15T17:30:00Z,Feeder,Feeder/Feeding,APAP
+2018-01-15T17:36:30Z,2018-01-15T17:30:00Z,Feeding,Feeder/Feeding,"PD3 Drift of screw speed and feed factor - Paused the process to clean the feeder manifold of B1. After restart, an accidental disturbance during cleaning resulted in  PD4 and PD5 thinking it was empty and refilled and overfilled. Process paused. Excess had tp be vacuumed. (AT)"
+2018-01-15T17:36:30Z,2018-01-15T17:30:00Z,Feeder,Feeder/Feeding,APAP
+2018-01-15T17:37:00Z,2018-01-15T17:30:00Z,Feeding,Feeder/Feeding,"PD3 Drift of screw speed and feed factor - Paused the process to clean the feeder manifold of B1. After restart, an accidental disturbance during cleaning resulted in  PD4 and PD5 thinking it was empty and refilled and overfilled. Process paused. Excess had tp be vacuumed. (AT)"
+2018-01-15T17:37:00Z,2018-01-15T17:30:00Z,Feeder,Feeder/Feeding,APAP
+2018-01-15T17:37:30Z,2018-01-15T17:30:00Z,Feeding,Feeder/Feeding,"PD3 Drift of screw speed and feed factor - Paused the process to clean the feeder manifold of B1. After restart, an accidental disturbance during cleaning resulted in  PD4 and PD5 thinking it was empty and refilled and overfilled. Process paused. Excess had tp be vacuumed. (AT)"
+2018-01-15T17:37:30Z,2018-01-15T17:30:00Z,Feeder,Feeder/Feeding,APAP
+2018-01-15T17:38:00Z,2018-01-15T17:30:00Z,Feeding,Feeder/Feeding,"PD3 Drift of screw speed and feed factor - Paused the process to clean the feeder manifold of B1. After restart, an accidental disturbance during cleaning resulted in  PD4 and PD5 thinking it was empty and refilled and overfilled. Process paused. Excess had tp be vacuumed. (AT)"
+2018-01-15T17:38:00Z,2018-01-15T17:30:00Z,Feeder,Feeder/Feeding,APAP
+2018-01-15T17:38:30Z,2018-01-15T17:30:00Z,Feeding,Feeder/Feeding,"PD3 Drift of screw speed and feed factor - Paused the process to clean the feeder manifold of B1. After restart, an accidental disturbance during cleaning resulted in  PD4 and PD5 thinking it was empty and refilled and overfilled. Process paused. Excess had tp be vacuumed. (AT)"
+2018-01-15T17:38:30Z,2018-01-15T17:30:00Z,Feeder,Feeder/Feeding,APAP
+2018-01-15T17:39:00Z,2018-01-15T17:30:00Z,Feeding,Feeder/Feeding,"PD3 Drift of screw speed and feed factor - Paused the process to clean the feeder manifold of B1. After restart, an accidental disturbance during cleaning resulted in  PD4 and PD5 thinking it was empty and refilled and overfilled. Process paused. Excess had tp be vacuumed. (AT)"
+2018-01-15T17:39:00Z,2018-01-15T17:30:00Z,Feeder,Feeder/Feeding,APAP
+2018-01-15T17:39:30Z,2018-01-15T17:30:00Z,Feeding,Feeder/Feeding,"PD3 Drift of screw speed and feed factor - Paused the process to clean the feeder manifold of B1. After restart, an accidental disturbance during cleaning resulted in  PD4 and PD5 thinking it was empty and refilled and overfilled. Process paused. Excess had tp be vacuumed. (AT)"
+2018-01-15T17:39:30Z,2018-01-15T17:30:00Z,Feeder,Feeder/Feeding,APAP
+2018-01-15T17:40:00Z,2018-01-15T17:30:00Z,Feeding,Feeder/Feeding,"PD3 Drift of screw speed and feed factor - Paused the process to clean the feeder manifold of B1. After restart, an accidental disturbance during cleaning resulted in  PD4 and PD5 thinking it was empty and refilled and overfilled. Process paused. Excess had tp be vacuumed. (AT)"
+2018-01-15T17:40:00Z,2018-01-15T17:30:00Z,Feeder,Feeder/Feeding,APAP
+2018-01-15T17:41:30Z,2018-01-15T17:30:00Z,Feeding,Feeder/Feeding,"PD3 Drift of screw speed and feed factor - Paused the process to clean the feeder manifold of B1. After restart, an accidental disturbance during cleaning resulted in  PD4 and PD5 thinking it was empty and refilled and overfilled. Process paused. Excess had tp be vacuumed. (AT)"
+2018-01-15T17:41:30Z,2018-01-15T17:30:00Z,Feeder,Feeder/Feeding,APAP
+2018-01-15T17:42:00Z,2018-01-15T17:30:00Z,Feeding,Feeder/Feeding,"PD3 Drift of screw speed and feed factor - Paused the process to clean the feeder manifold of B1. After restart, an accidental disturbance during cleaning resulted in  PD4 and PD5 thinking it was empty and refilled and overfilled. Process paused. Excess had tp be vacuumed. (AT)"
+2018-01-15T17:42:00Z,2018-01-15T17:30:00Z,Feeder,Feeder/Feeding,APAP
+2018-01-15T17:42:30Z,2018-01-15T17:30:00Z,Feeding,Feeder/Feeding,"PD3 Drift of screw speed and feed factor - Paused the process to clean the feeder manifold of B1. After restart, an accidental disturbance during cleaning resulted in  PD4 and PD5 thinking it was empty and refilled and overfilled. Process paused. Excess had tp be vacuumed. (AT)"
+2018-01-15T17:42:30Z,2018-01-15T17:30:00Z,Feeder,Feeder/Feeding,APAP
+2018-01-15T17:43:00Z,2018-01-15T17:30:00Z,Feeding,Feeder/Feeding,"PD3 Drift of screw speed and feed factor - Paused the process to clean the feeder manifold of B1. After restart, an accidental disturbance during cleaning resulted in  PD4 and PD5 thinking it was empty and refilled and overfilled. Process paused. Excess had tp be vacuumed. (AT)"
+2018-01-15T17:43:00Z,2018-01-15T17:30:00Z,Feeder,Feeder/Feeding,APAP
+2018-01-15T17:43:30Z,2018-01-15T17:30:00Z,Feeding,Feeder/Feeding,"PD3 Drift of screw speed and feed factor - Paused the process to clean the feeder manifold of B1. After restart, an accidental disturbance during cleaning resulted in  PD4 and PD5 thinking it was empty and refilled and overfilled. Process paused. Excess had tp be vacuumed. (AT)"
+2018-01-15T17:43:30Z,2018-01-15T17:30:00Z,Feeder,Feeder/Feeding,APAP
+2018-01-15T17:44:00Z,2018-01-15T17:30:00Z,Feeding,Feeder/Feeding,"PD3 Drift of screw speed and feed factor - Paused the process to clean the feeder manifold of B1. After restart, an accidental disturbance during cleaning resulted in  PD4 and PD5 thinking it was empty and refilled and overfilled. Process paused. Excess had tp be vacuumed. (AT)"
+2018-01-15T17:44:00Z,2018-01-15T17:30:00Z,Feeder,Feeder/Feeding,APAP
+2018-01-15T17:44:30Z,2018-01-15T17:30:00Z,Feeding,Feeder/Feeding,"PD3 Drift of screw speed and feed factor - Paused the process to clean the feeder manifold of B1. After restart, an accidental disturbance during cleaning resulted in  PD4 and PD5 thinking it was empty and refilled and overfilled. Process paused. Excess had tp be vacuumed. (AT)"
+2018-01-15T17:44:30Z,2018-01-15T17:30:00Z,Feeder,Feeder/Feeding,APAP
+2018-01-15T17:45:00Z,2018-01-15T17:30:00Z,Feeding,Feeder/Feeding,"PD3 Drift of screw speed and feed factor - Paused the process to clean the feeder manifold of B1. After restart, an accidental disturbance during cleaning resulted in  PD4 and PD5 thinking it was empty and refilled and overfilled. Process paused. Excess had tp be vacuumed. (AT)"
+2018-01-15T17:45:00Z,2018-01-15T17:30:00Z,Feeder,Feeder/Feeding,APAP
+2018-01-16T06:50:30Z,2018-01-16T07:00:00Z,Feeding,Feeder/Feeding,Avicel PD2 Communication error - Process Stopped. Acknowledged and restarted (PO)
+2018-01-16T06:50:30Z,2018-01-16T07:00:00Z,Electronic Communication,Electronic Communication,Avcicel PD2
+2018-01-16T06:51:00Z,2018-01-16T07:00:00Z,Feeding,Feeder/Feeding,Avicel PD2 Communication error - Process Stopped. Acknowledged and restarted (PO)
+2018-01-16T06:51:00Z,2018-01-16T07:00:00Z,Electronic Communication,Electronic Communication,Avcicel PD2
+2018-01-16T09:13:00Z,2018-01-16T09:00:00Z,Compression,Compression,Compression Force Compensator - Read/Write difference. Happened 3 consecutive times. Manual change of setpoint fixed the issue. -issue resolved(KM)
+2018-01-16T09:13:30Z,2018-01-16T09:00:00Z,Compression,Compression,Compression Force Compensator - Read/Write difference. Happened 3 consecutive times. Manual change of setpoint fixed the issue. -issue resolved(KM)
+2018-01-16T09:14:00Z,2018-01-16T09:00:00Z,Compression,Compression,Compression Force Compensator - Read/Write difference. Happened 3 consecutive times. Manual change of setpoint fixed the issue. -issue resolved(KM)
+2018-01-16T09:14:30Z,2018-01-16T09:00:00Z,Compression,Compression,Compression Force Compensator - Read/Write difference. Happened 3 consecutive times. Manual change of setpoint fixed the issue. -issue resolved(KM)
+2018-01-16T09:15:00Z,2018-01-16T09:00:00Z,Compression,Compression,Compression Force Compensator - Read/Write difference. Happened 3 consecutive times. Manual change of setpoint fixed the issue. -issue resolved(KM)
+2018-01-16T09:15:30Z,2018-01-16T09:00:00Z,Compression,Compression,Compression Force Compensator - Read/Write difference. Happened 3 consecutive times. Manual change of setpoint fixed the issue. -issue resolved(KM)
+2018-01-16T10:20:30Z,2018-01-16T10:00:00Z,Feeding,Feeder/Feeding,Pit Stop - Vacuum B1 & B2 inlet port (AT)
+2018-01-16T10:20:30Z,2018-01-16T10:00:00Z,Compression,Compression,Pit Stop - Vacuum the ECM (AT)
+2018-01-16T10:21:00Z,2018-01-16T10:00:00Z,Feeding,Feeder/Feeding,Pit Stop - Vacuum B1 & B2 inlet port (AT)
+2018-01-16T10:21:00Z,2018-01-16T10:00:00Z,Compression,Compression,Pit Stop - Vacuum the ECM (AT)
+2018-01-16T10:21:30Z,2018-01-16T10:00:00Z,Feeding,Feeder/Feeding,Pit Stop - Vacuum B1 & B2 inlet port (AT)
+2018-01-16T10:21:30Z,2018-01-16T10:00:00Z,Compression,Compression,Pit Stop - Vacuum the ECM (AT)
+2018-01-16T10:22:00Z,2018-01-16T10:00:00Z,Feeding,Feeder/Feeding,Pit Stop - Vacuum B1 & B2 inlet port (AT)
+2018-01-16T10:22:00Z,2018-01-16T10:00:00Z,Compression,Compression,Pit Stop - Vacuum the ECM (AT)
+2018-01-16T10:22:30Z,2018-01-16T10:00:00Z,Feeding,Feeder/Feeding,Pit Stop - Vacuum B1 & B2 inlet port (AT)
+2018-01-16T10:22:30Z,2018-01-16T10:00:00Z,Compression,Compression,Pit Stop - Vacuum the ECM (AT)
+2018-01-16T10:23:00Z,2018-01-16T10:00:00Z,Feeding,Feeder/Feeding,Pit Stop - Vacuum B1 & B2 inlet port (AT)
+2018-01-16T10:23:00Z,2018-01-16T10:00:00Z,Compression,Compression,Pit Stop - Vacuum the ECM (AT)
+2018-01-16T10:23:30Z,2018-01-16T10:00:00Z,Feeding,Feeder/Feeding,Pit Stop - Vacuum B1 & B2 inlet port (AT)
+2018-01-16T10:23:30Z,2018-01-16T10:00:00Z,Compression,Compression,Pit Stop - Vacuum the ECM (AT)
+2018-01-16T10:24:00Z,2018-01-16T10:00:00Z,Feeding,Feeder/Feeding,Pit Stop - Vacuum B1 & B2 inlet port (AT)
+2018-01-16T10:24:00Z,2018-01-16T10:00:00Z,Compression,Compression,Pit Stop - Vacuum the ECM (AT)
+2018-01-16T10:24:30Z,2018-01-16T10:00:00Z,Feeding,Feeder/Feeding,Pit Stop - Vacuum B1 & B2 inlet port (AT)
+2018-01-16T10:24:30Z,2018-01-16T10:00:00Z,Compression,Compression,Pit Stop - Vacuum the ECM (AT)
+2018-01-16T10:25:00Z,2018-01-16T10:00:00Z,Feeding,Feeder/Feeding,Pit Stop - Vacuum B1 & B2 inlet port (AT)
+2018-01-16T10:25:00Z,2018-01-16T10:00:00Z,Compression,Compression,Pit Stop - Vacuum the ECM (AT)
+2018-01-16T10:25:30Z,2018-01-16T10:00:00Z,Feeding,Feeder/Feeding,Pit Stop - Vacuum B1 & B2 inlet port (AT)
+2018-01-16T10:25:30Z,2018-01-16T10:00:00Z,Compression,Compression,Pit Stop - Vacuum the ECM (AT)
+2018-01-16T16:38:00Z,2018-01-16T16:30:00Z,Feeding,Feeder/Feeding,"Lactose Refill failing- Over the period of 16:12 - 16:39 the lacotse refill was empty and material not getting into the feeder. This resulted in a few short stops, which the system automatically started again one one of them. Possible blinding of the top up level sensor, knocked the side of the hopper and then restarted the process(AT)"
+2018-01-16T16:38:00Z,2018-01-16T16:30:00Z,Feeders,Feeder/Feeding,Lactose Refill Failure

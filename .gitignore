@@ -1,0 +1,24 @@
+# Large data files
+Cleaned Data& Code/Machine data/
+Cleaned Data& Code/Contextual quality data/
+Cleaned Data& Code/*.rds
+
+# Archived old data
+Archived/
+
+# Media files
+*.mp4
+*.srt
+
+# Rendered Quarto output
+*_files/
+*.html
+
+# R artifacts
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj.gitignore.gitignore
+desktop.ini
+feeder_interruptions_summary.rds
+feeder_measure_plots.rds
