@@ -1,0 +1,122 @@
+---
+title: "Data"
+---
+
+::: {.page-content}
+
+## Data Overview
+
+::: {.section-divider}
+:::
+
+This study uses data provided by MSD (Merck & Co., Inc.) in collaboration with GEA for the 2025 MSOM Data-Driven Research Challenge. The dataset captures approximately 300 million data points over five days of production from a CDC-50 continuous direct compression line.
+
+---
+
+### Process Description
+
+The GEA CDC-50 system integrates six loss-in-weight (LiW) feeders, two continuous blenders, and a rotary tablet press. Raw materials flow continuously from feeders through blending to compression — with no intermediate hold times between stages.
+
+| Stage | Equipment | Role |
+|-------|-----------|------|
+| Feeding | PD1–PD5 (LiW feeders) | Deliver controlled mass flow of individual components to Blender 1 |
+| Lubrication | PD7 (LiW feeder) | Adds magnesium stearate between B1 and B2 |
+| Blending | Blender 1 (B1) | High-shear homogenization; large holdup volume |
+| Blending | Blender 2 (B2) | Low-shear lubrication mixing |
+| Compression | KPP Tablet Press | Rotary compression into core tablets |
+
+**Formulation** (400 mg tablet):
+
+<table class="data-table">
+<thead><tr><th>Material</th><th>Identifier</th><th>Composition (%)</th><th>Quantity (mg)</th></tr></thead>
+<tbody>
+<tr><td>Acetaminophen powder (API)</td><td>pAPAP (PD3)</td><td>10%</td><td>40</td></tr>
+<tr><td>Spray dried lactose</td><td>L316 (PD2)</td><td>29%</td><td>116</td></tr>
+<tr><td>Microcrystalline cellulose</td><td>A102 (PD1, PD4)</td><td>57%</td><td>228</td></tr>
+<tr><td>Sodium croscarmellose</td><td>Ac-di-sol (PD5)</td><td>3%</td><td>12</td></tr>
+<tr><td>Magnesium stearate</td><td>Mag St (PD7)</td><td>1%</td><td>4</td></tr>
+</tbody>
+</table>
+
+---
+
+### Dataset Structure
+
+**Study period:** January 12, 2018 08:42:31 — January 17, 2018 03:40:00 (94% of total production time)
+
+<table class="data-table">
+<thead><tr><th>Data type</th><th>Source</th><th>Frequency</th><th>Key variables</th></tr></thead>
+<tbody>
+<tr><td>LiW Feeder machine data</td><td>Historian</td><td>1 second</td><td>Mass flow, screw RPM, feed factor, % composition (PD1–PD7)</td></tr>
+<tr><td>Blender machine data</td><td>Historian</td><td>1 second</td><td>Mass flow B1/B2, blend potency predictions, OOS concentration</td></tr>
+<tr><td>Tablet press machine data</td><td>Historian</td><td>1 second</td><td>Filling shoe speed (paddles 1 & 2), filling depth, compression force</td></tr>
+<tr><td>Environmental data</td><td>Sensors</td><td>~15 min</td><td>Temperature and humidity at feeder and tablet press</td></tr>
+<tr><td>Tablet quality (IPC)</td><td>Manual sampling</td><td>~15 min</td><td>Average weight (mg), thickness (mm), hardness (kP)</td></tr>
+<tr><td>Content uniformity</td><td>At-line NIR</td><td>~30 min</td><td>Average drug content (%) — 10 tablets per sample</td></tr>
+<tr><td>Event logbook</td><td>Operator notes</td><td>~30 min intervals</td><td>Process events, interruption causes, operator observations</td></tr>
+</tbody>
+</table>
+
+---
+
+### Interruption Construction
+
+Exogenous interruptions are identified in two steps:
+
+**Step 1 — Machine stoppages:** 30-second slots where filling shoe speed equals zero, aggregated into contiguous runs. Runs exceeding 20 slots (10 minutes) are classified as planned maintenance pauses and excluded.
+
+**Step 2 — Logbook matching:** Machine stop runs are matched to exogenous logbook entries within a ±30-minute window. Logbook entries classified as Feeder/Feeding, Electronic Communication, or Compression are retained as exogenous. RTD/PAT, NIR, Quality, Adjustment, Cleaning, and Blending entries are excluded.
+
+This yields **272 exogenous stop slots** across the study period, with 98.5% occurring during the feeding stage.
+
+::: {.highlight-box}
+**Interruption types identified:**
+
+- **Communication errors** — feeder communication alarms resulting in automatic process stops
+- **Material flow interruptions** — vacuum wand voids, empty refills, powder buildup
+- **Software glitches** — loss of information causing system resets
+- **Compression force anomalies** — read/write differences triggering process stops
+:::
+
+---
+
+### Key Variables
+
+<table class="data-table">
+<thead><tr><th>Variable</th><th>Description</th><th>Range</th></tr></thead>
+<tbody>
+<tr><td>Interruption</td><td>Binary — exogenous stop at time t</td><td>0 / 1</td></tr>
+<tr><td>Interruption.Feeding</td><td>Binary — exogenous feeding-stage stop</td><td>0 / 1</td></tr>
+<tr><td>Speed</td><td>Filling shoe speed, paddle 1 (RPM)</td><td>0 – 80</td></tr>
+<tr><td>Weight.Pass</td><td>Binary — weight deviation within ±1% of 400mg target</td><td>0 / 1</td></tr>
+<tr><td>Weight</td><td>Average tablet weight (mg)</td><td>392.3 – 407.8</td></tr>
+<tr><td>Drug.Content</td><td>Average API percentage per tablet (%)</td><td>9.8 – 10.4</td></tr>
+<tr><td>Lot.Change</td><td>Binary — Avicel PH102 lot change period</td><td>0 / 1</td></tr>
+<tr><td>Press.Temperature</td><td>Temperature at tablet press (°C)</td><td>23.6 – 39.6</td></tr>
+<tr><td>Press.Humidity</td><td>Relative humidity at tablet press (%)</td><td>8.2 – 33.5</td></tr>
+</tbody>
+</table>
+
+---
+
+### Control Limits
+
+<table class="data-table">
+<thead><tr><th>Parameter</th><th>Target</th><th>Control limit</th><th>Rejection limit</th></tr></thead>
+<tbody>
+<tr><td>Tablet weight</td><td>400 mg</td><td>±1% (396–404 mg)</td><td>±4% (384–416 mg)</td></tr>
+<tr><td>Drug content</td><td>10.0%</td><td>±0.5% (9.5–10.5%)</td><td>±15% (8.5–11.5%)</td></tr>
+<tr><td>RTD potency prediction</td><td>100%</td><td>±2%</td><td>>2% OOS triggers rejection</td></tr>
+<tr><td>%PD3 (API feeder)</td><td>10.0%</td><td>±15%</td><td>Outside 8.5–11.5%</td></tr>
+</tbody>
+</table>
+
+---
+
+### Data Availability
+
+Raw machine data is not publicly available due to data sharing agreements with MSD/GEA. Code, methodology, summary statistics, and analytical outputs are available in the GitHub repository.
+
+<a href="https://github.com/Christopher-Antwi/Interruption-Management-Analysis" class="btn-uo">GitHub Repository</a>
+
+:::

@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Interruption Management"
+  favicon: images/favicon.ico
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Analysis"
+        href: interrupted_continuity_analysis.qmd
+      - text: "Data"
+        href: data.qmd
+    right:
+      - text: "← Christopher Antwi"
+        href: https://christopher-antwi.github.io
+      - icon: github
+        href: https://github.com/Christopher-Antwi/Interruption-Management-Analysis
+        aria-label: GitHub
+  page-footer:
+    center: |
+      Christopher Antwi · University of Oregon · 2025
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    embed-resources: false

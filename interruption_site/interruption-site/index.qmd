@@ -1,0 +1,177 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.hero}
+::: {.container}
+
+[span class="hero-label"]{Working Paper · Operations Management · 2025}[/span]
+
+# Interrupted Continuity: An Empirical Analysis of Interruptions in Continuous Pharma Manufacturing
+
+::: {.hero-meta}
+Christopher Antwi · University of Oregon, Lundquist College of Business
+:::
+
+::: {.hero-abstract}
+Using approximately 300 million data points from a continuous tablet production line over 120 hours, this study demonstrates that unplanned exogenous interruptions propagate from the upstream feeding stage to the downstream compression stage, reducing productivity by 49%–96% during post-interruption transition periods while simultaneously compromising product quality through increased tablet weight and reduced drug content.
+:::
+
+<a href="analysis.qmd" class="btn-uo">View Full Analysis</a>
+<a href="data.qmd" class="btn-uo-outline">Data Overview</a>
+
+:::
+:::
+
+::: {.page-content}
+
+## Key Statistics
+
+::: {.stats-row}
+::: {.stat-card}
+::: {.stat-number}
+300M
+:::
+::: {.stat-label}
+Data points collected
+:::
+:::
+
+::: {.stat-card}
+::: {.stat-number}
+120h
+:::
+::: {.stat-label}
+Production run duration
+:::
+:::
+
+::: {.stat-card}
+::: {.stat-number}
+272
+:::
+::: {.stat-label}
+Exogenous interruptions
+:::
+:::
+
+::: {.stat-card}
+::: {.stat-number}
+13,794
+:::
+::: {.stat-label}
+Observations (30s intervals)
+:::
+:::
+
+::: {.stat-card}
+::: {.stat-number}
+$11,483
+:::
+::: {.stat-label}
+Est. annual material loss
+:::
+:::
+:::
+
+---
+
+## Key Findings
+
+::: {.section-divider}
+:::
+
+::: {.finding-card}
+::: {.finding-number}
+Finding 1
+:::
+::: {.finding-title}
+Interruptions reduce productivity by up to 96% during post-interruption transition periods
+:::
+::: {.finding-desc}
+Filling shoe speed — the primary proxy for downstream productivity — drops dramatically at interruption onset and recovers progressively over the subsequent 150 seconds, consistent with the system's mean residence time of 136 seconds.
+:::
+:::
+
+::: {.finding-card}
+::: {.finding-number}
+Finding 2
+:::
+::: {.finding-title}
+Upstream interruptions cascade downstream, affecting both productivity and quality
+:::
+::: {.finding-desc}
+98.5% of identified interruptions originate at the feeding stage. These upstream stoppages propagate through blending to compression, reducing filling shoe speed and increasing the likelihood of weight control threshold violations.
+:::
+:::
+
+::: {.finding-card}
+::: {.finding-number}
+Finding 3
+:::
+::: {.finding-title}
+Operators compensate by proactively increasing filling depth post-interruption
+:::
+::: {.finding-desc}
+Following interruptions, operators increase volumetric filling depth at the tablet press — a conservative strategy that ensures individual tablets meet label claim requirements but generates excess material waste, estimated at $11,483 annually per production line.
+:::
+:::
+
+::: {.finding-card}
+::: {.finding-number}
+Finding 4
+:::
+::: {.finding-title}
+OOS alarm systems show reduced sensitivity during post-interruption recovery
+:::
+::: {.finding-desc}
+Blender 2 OOS pass rates paradoxically increase post-interruption, suggesting RTD-based potency predictions may fail to capture transient inhomogeneities during flow recovery — creating misleadingly favorable control signals.
+:::
+:::
+
+---
+
+## Interactive Explorer
+
+::: {.section-divider}
+:::
+
+::: {.shiny-cta}
+::: {.cta-icon}
+📊
+:::
+::: {.cta-text}
+### Interruption Explorer — Shiny App
+
+Explore interruption events interactively. Filter by operation type, search logbook notes, and visualize process parameter behavior at multiple time windows (±5s, ±30s, ±3min, ±10min) around each interruption event.
+:::
+<a href="YOUR_SHINY_URL_HERE" class="cta-btn">Launch App →</a>
+:::
+
+---
+
+## Process Overview
+
+::: {.section-divider}
+:::
+
+The GEA CDC-50 continuous direct compression system integrates six loss-in-weight feeders, two continuous blenders, and a rotary tablet press into a single automated workflow. Raw materials are continuously fed, blended, and compressed into core tablets — making the system highly efficient but also highly vulnerable to propagating disruptions.
+
+```
+PD1–PD5 (Feeders) → Blender 1 (B1) → PD7 (Lubricant) → Blender 2 (B2) → Tablet Press (KPP)
+```
+
+Data spans January 12–17, 2018, capturing 121 hours and 18 minutes of continuous operations. Machine data is recorded at one-second intervals; tablet quality data at approximately 15–30 minute intervals.
+
+<a href="data.qmd" class="btn-uo-outline">Full Data Description →</a>
+
+---
+
+## Citation
+
+::: {.highlight-box}
+Antwi, C. (2025). *Interrupted Continuity: An Empirical Analysis of Interruptions in Continuous Pharma Manufacturing.* Working Paper, University of Oregon. Replication of Shao, Choudhary & Ding (2025), Nanyang Business School Research Paper No. 25-05.
+:::
+
+:::

@@ -1,0 +1,343 @@
+/*-- scss:defaults --*/
+
+/*-- scss:rules --*/
+
+$uo-green:       #154733;
+$uo-yellow:      #FEE123;
+$uo-green-light: #1a5a40;
+$uo-green-dark:  #0f3326;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+/* ── Navbar ───────────────────────────────────────────── */
+.navbar {
+  background-color: $uo-green !important;
+  border-bottom: 3px solid $uo-yellow;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+  color: rgba(255,255,255,0.85) !important;
+  transition: color 0.2s ease;
+  &:hover { color: $uo-yellow !important; }
+}
+
+.navbar-nav .nav-link.active { color: $uo-yellow !important; }
+
+/* ── Footer ───────────────────────────────────────────── */
+.nav-footer {
+  background-color: $uo-green-dark;
+  color: rgba(255,255,255,0.55);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.85rem;
+  border-top: 2px solid $uo-yellow;
+}
+
+/* ── Body ─────────────────────────────────────────────── */
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  color: #1a1a1a;
+  line-height: 1.8;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  color: $uo-green;
+}
+
+/* ── Hero ─────────────────────────────────────────────── */
+.hero {
+  background: linear-gradient(140deg, $uo-green 0%, $uo-green-light 60%, #1e6b4a 100%);
+  color: white;
+  padding: 5rem 2rem 4rem;
+  margin-bottom: 0;
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: $uo-yellow;
+  }
+
+  .hero-label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $uo-yellow;
+    margin-bottom: 1rem;
+    display: block;
+  }
+
+  h1 {
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    max-width: 720px;
+  }
+
+  .hero-meta {
+    color: rgba(255,255,255,0.7);
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+  }
+
+  .hero-abstract {
+    color: rgba(255,255,255,0.85);
+    font-size: 1rem;
+    max-width: 640px;
+    line-height: 1.85;
+    margin-bottom: 2rem;
+  }
+}
+
+/* ── Stat cards row ───────────────────────────────────── */
+.stats-row {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 2.5rem 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 3rem;
+}
+
+.stat-card {
+  flex: 1;
+  min-width: 160px;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  border-radius: 8px;
+  background: #f9f9f7;
+  border-top: 3px solid $uo-yellow;
+
+  .stat-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: $uo-green;
+    line-height: 1;
+    margin-bottom: 0.4rem;
+  }
+
+  .stat-label {
+    font-size: 0.78rem;
+    color: #666;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+}
+
+/* ── Finding cards ────────────────────────────────────── */
+.finding-card {
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  padding: 1.8rem;
+  margin-bottom: 1.2rem;
+  border-left: 4px solid $uo-green;
+  transition: box-shadow 0.2s ease;
+
+  &:hover { box-shadow: 0 4px 18px rgba(21,71,51,0.1); }
+
+  .finding-number {
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: $uo-yellow;
+    background: $uo-green;
+    padding: 0.15rem 0.6rem;
+    border-radius: 20px;
+    margin-bottom: 0.8rem;
+    display: inline-block;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .finding-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    color: $uo-green;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+
+  .finding-desc {
+    font-size: 0.92rem;
+    color: #444;
+    line-height: 1.75;
+  }
+}
+
+/* ── Shiny CTA ────────────────────────────────────────── */
+.shiny-cta {
+  background: linear-gradient(135deg, $uo-green-dark 0%, $uo-green 100%);
+  border-radius: 10px;
+  padding: 2.5rem 2rem;
+  color: white;
+  margin: 3rem 0;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+
+  .cta-icon {
+    font-size: 3rem;
+    flex-shrink: 0;
+  }
+
+  .cta-text {
+    flex: 1;
+
+    h3 {
+      color: $uo-yellow;
+      font-size: 1.3rem;
+      margin-bottom: 0.4rem;
+    }
+
+    p {
+      color: rgba(255,255,255,0.8);
+      font-size: 0.92rem;
+      margin: 0;
+      line-height: 1.7;
+    }
+  }
+
+  .cta-btn {
+    background: $uo-yellow;
+    color: $uo-green-dark;
+    font-weight: 600;
+    font-size: 0.88rem;
+    padding: 0.7rem 1.6rem;
+    border-radius: 5px;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: opacity 0.2s ease;
+    font-family: 'DM Sans', sans-serif;
+
+    &:hover {
+      opacity: 0.9;
+      text-decoration: none;
+      color: $uo-green-dark;
+    }
+  }
+}
+
+/* ── Section divider ──────────────────────────────────── */
+.section-divider {
+  width: 48px;
+  height: 3px;
+  background: $uo-yellow;
+  margin: 0.8rem 0 2rem;
+  border-radius: 2px;
+}
+
+/* ── Page content ─────────────────────────────────────── */
+.page-content {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+/* ── Buttons ──────────────────────────────────────────── */
+.btn-uo {
+  background-color: $uo-green;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 4px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+  margin-right: 0.8rem;
+  margin-top: 1rem;
+
+  &:hover {
+    background-color: $uo-green-light;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.btn-uo-outline {
+  background-color: transparent;
+  color: $uo-green;
+  border: 2px solid $uo-green;
+  padding: 0.55rem 1.3rem;
+  border-radius: 4px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s ease;
+  margin-top: 1rem;
+
+  &:hover {
+    background-color: $uo-green;
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/* ── Highlight box ────────────────────────────────────── */
+.highlight-box {
+  background: rgba(254,225,35,0.07);
+  border-left: 4px solid $uo-yellow;
+  padding: 1.2rem 1.5rem;
+  border-radius: 0 6px 6px 0;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* ── Data page ────────────────────────────────────────── */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  margin: 1rem 0 2rem;
+
+  th {
+    background: $uo-green;
+    color: white;
+    padding: 0.7rem 1rem;
+    text-align: left;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  td {
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid #eee;
+    vertical-align: top;
+  }
+
+  tr:nth-child(even) td { background: #f9f9f7; }
+}
+
+/* ── Mobile ───────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .hero h1 { font-size: 2rem; }
+  .hero { padding: 3.5rem 1.2rem 3rem; }
+  .stats-row { gap: 1rem; }
+  .shiny-cta { flex-direction: column; gap: 1.2rem; }
+}
