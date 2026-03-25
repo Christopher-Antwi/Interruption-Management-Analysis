@@ -22,3 +22,6 @@ Archived/
 desktop.ini
 feeder_interruptions_summary.rds
 feeder_measure_plots.rds
+
+/.quarto/
+**/*.quarto_ipynb
